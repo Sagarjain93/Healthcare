@@ -74,14 +74,14 @@ Scatter Plot: Length of stay vs. billing amount
 
 **Future Scope**
 
-Incorporate time-series analysis for seasonal billing patterns.
+1.Incorporate time-series analysis for seasonal billing patterns.
 
-Integrate predictive modeling to forecast billing amounts
+2. Integrate predictive modeling to forecast billing amounts.
 
-
-Author : Sagar Jain
-
+3. Analyze the impact of insurance coverage on final bills.
 
 
+**Author : Sagar Jain**
 
-Analyze the impact of insurance coverage on final bills.
+
+
