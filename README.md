@@ -1,29 +1,31 @@
-🏥 Healthcare Billing Analysis
+**Healthcare Billing Analysis**
 
-📌 Project Overview
+<img width="736" height="736" alt="image" src="https://github.com/user-attachments/assets/49e0a0a8-f9b5-431d-9e0a-5fcb33c168b4" />
+
+**Project Overview**
 
 This project analyzes a healthcare dataset containing 55,500+ patient records to explore billing patterns based on gender, admission type, and other demographic factors.
 The goal is to uncover key trends, disparities, and actionable insights that can help improve hospital cost management, operational efficiency, and fairness in billing.
 
-📂 Dataset
+**Dataset**
 
-Source: Hospital management dataset (synthetic for analysis purposes)
+1. Source: Hospital management dataset (synthetic for analysis purposes)
 
-Size: 55,500+ rows × 15 columns
+2. Size: 55,500+ rows × 15 columns
 
-Key Columns:
+**Key Columns:**
 
-patient_id – Unique identifier for each patient
+1. patient_id – Unique identifier for each patient
 
-gender – Male / Female
+2. gender – Male / Female
 
-admission_type – Urgent / Emergency / Elective
+3. admission_type – Urgent / Emergency / Elective
 
-billing_amount – Total charges incurred by the patient
+4. billing_amount – Total charges incurred by the patient
 
-department, diagnosis, length_of_stay, etc.
+5. department, diagnosis, length_of_stay, etc.
 
-🎯 Problem Statement
+**Problem Statement**
 
 Healthcare organizations often face challenges in understanding and optimizing billing patterns due to varying patient demographics and admission types.
 This project addresses:
@@ -34,15 +36,15 @@ Which admission categories have higher charges?
 
 Are there outliers that significantly impact hospital revenue?
 
-🛠️ Tools & Technologies
+**Tools & Technologies**
 
-Python (Pandas, NumPy) – Data cleaning & transformation
+*  Python (Pandas, NumPy) – Data cleaning & transformation
 
-Matplotlib / Seaborn – Data visualization
+*  Matplotlib / Seaborn – Data visualization
 
-Jupyter Notebook – Exploratory Data Analysis (EDA)
+*  Jupyter Notebook – Exploratory Data Analysis (EDA)
 
-📊 Key Visualizations
+**Key Visualizations**
 
 Box Plot: Billing amount distribution by gender & admission type
 
@@ -52,28 +54,34 @@ Histogram: Billing frequency distribution
 
 Scatter Plot: Length of stay vs. billing amount
 
-📌 Insights
+**Insights**
 
-Median billing amount is consistent across genders.
+1. Median billing amount is consistent across genders.
 
-Slightly higher variability in billing for Emergency admissions.
+2. Slightly higher variability in billing for Emergency admissions.
 
-No significant gender bias in billing amounts.
+3. No significant gender bias in billing amounts.
 
-Presence of high-value outliers that could influence total revenue.
+4. Presence of high-value outliers that could influence total revenue.
 
-✅ Business Impact
+**Business Impact**
 
-Helps identify cost drivers in hospital billing.
+1. Helps identify cost drivers in hospital billing.
 
-Ensures fair billing practices across patient demographics.
+2. Ensures fair billing practices across patient demographics.
 
-Supports financial planning by predicting high-cost cases.
+3. Supports financial planning by predicting high-cost cases.
 
-📈 Future Scope
+**Future Scope**
 
 Incorporate time-series analysis for seasonal billing patterns.
 
-Integrate predictive modeling to forecast billing amounts.
+Integrate predictive modeling to forecast billing amounts
+
+
+Author : Sagar Jain
+
+
+
 
 Analyze the impact of insurance coverage on final bills.
